@@ -17,7 +17,7 @@ function miInformacion() {
   
   const nombre = "Emilio Batun";
   const edad = 18;
-  const carrera = "TSUnpm test";
+  const carrera = "TSU";
   
   return { nombre, edad, carrera };
 }
@@ -31,10 +31,10 @@ function miInformacion() {
 function operacionesBasicas(a, b) {
   // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
   
-  const suma = 0;
-  const resta = 0;
-  const multiplicacion = 0;
-  const division = 0;
+  const suma = a + b;
+  const resta = a - b;
+  const multiplicacion = a * b;
+  const division = a / b;
   
   return { suma, resta, multiplicacion, division };
 }
